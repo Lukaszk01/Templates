@@ -1,1 +1,9 @@
-style.css
+.banner {
+	height: 100%;
+}
+
+.space-one {
+	height: 300px;
+	background-color: #e8eef4;
+	border-bottom: 1px black
+}
