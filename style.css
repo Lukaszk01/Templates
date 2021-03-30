@@ -9,4 +9,12 @@
 }
 .horizontal-images {
 	height: 300px;
+	border-bottom: solid;
+}
+.col-8, .col-sm-6 {
+	height: 200px;
+	border: solid;
+}
+.border {
+	border-bottom: solid;
 }
