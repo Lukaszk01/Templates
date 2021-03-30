@@ -18,3 +18,19 @@
 .border {
 	border-bottom: solid;
 }
+.products-title {
+	height:200px;
+}
+.products-title h2 {
+	text-align: center;
+}
+.product-display {
+	border-bottom: solid;
+}
+.product-display .row, .row-cols-3{
+	height: 300px;
+	border: solid;
+}
+.footer {
+	height:400px;
+}
