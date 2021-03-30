@@ -8,8 +8,7 @@
 	border-bottom: 1px black
 }
 .horizontal-images {
-	height: 300px;
-	border-bottom: solid;
+	height: 600px;
 }
 .col-8, .col-sm-6 {
 	height: 200px;
@@ -34,3 +33,7 @@
 .footer {
 	height:400px;
 }
+.random-photo {
+	height: 600px;
+}
+
