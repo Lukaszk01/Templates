@@ -40,3 +40,19 @@
 	width: 400px;
 	height: 400px;
 }
+.instagram {
+	margin-right: 0;
+	margin-left: 0;
+}
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background-color: Black;
+}
+
+.navbar.sticky
+{
+    position: fixed;
+    top: 0px;
+}
