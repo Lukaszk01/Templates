@@ -16,14 +16,11 @@
 }
 .products-title h2 {
 	text-align: center;
+	height: 200px;
 }
 
-.product-display .row, .row-cols-3{
-	height: 300px;
-	border: solid;
-}
 .footer {
-	height:400px;
+	height: 200px;
 }
 .random-photo {
 	height: 600px;
@@ -38,4 +35,8 @@
 .no-gutter {
   margin-left: 0;
   margin-right: 0;
+}
+.product-photo {
+	width: 400px;
+	height: 400px;
 }
