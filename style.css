@@ -53,9 +53,12 @@
 .mySlides, .fade {
 	margin: 0px;
 }
-/*.mySlides, .fade img {
-	width: 2000px;
-}*/
+.mySlides, .fade img {
+	width: 1360px;
+}
+.container-fluid a{
+	color: black;
+}
 /*SLIDESHOW*/
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -114,7 +117,7 @@ img {vertical-align: middle;}
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
-  to {opacity: 1}
+  to {opacity: 4}
 }
 
 @keyframes fade {
