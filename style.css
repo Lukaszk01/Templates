@@ -59,6 +59,12 @@
 .container-fluid a{
 	color: black;
 }
+.random-photo img:hover {
+	opacity: 1;
+}
+
+
+
 /*SLIDESHOW*/
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
