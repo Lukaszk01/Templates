@@ -18,7 +18,13 @@
 	text-align: center;
 	height: 200px;
 }
-
+.navbar {
+	background-color: #908bd6;
+	opacity: 0.8;
+}
+.space-one {
+	background-color: #908bd6;
+}
 .footer {
 	height: 200px;
 }
@@ -45,10 +51,10 @@
 	margin-left: 0;
 }
 .products-title {
-	background-color: #E8EEF4;
+	background-color: #908bd6;
 }
 .footer {
-	background-color: #E8EEF4;
+	background-color: #908bd6;
 }
 .mySlides, .fade {
 	margin: 0px;
@@ -180,4 +186,19 @@ img {vertical-align: middle;}
     transition: opacity .3s, visibility .3s, background-color .3s
 }
 
-
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
